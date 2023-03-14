@@ -101,7 +101,10 @@ main {
 
     .list-category span {
         display: inline-block;
-        
+    }
+
+    .task-item {
+        margin: 10px 0px;
     }
 
         /* stickers */
