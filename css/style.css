@@ -80,3 +80,86 @@ main {
 
 
     /* List of categories */
+
+    #lists {
+        padding: 30px 50px;
+        color: #444851;
+        line-height: 25px;
+    }
+
+    .list-category {
+        margin-bottom: 20px;
+    }
+
+    .list-category strong::before {
+        content: "\23F7";
+    }
+
+    .list-category strong {
+        font-size: 20px;
+    }
+
+    .list-category span {
+        display: inline-block;
+        
+    }
+
+        /* stickers */
+
+        .sticker {
+            font-size: 11px;
+            padding: 0px 10px;
+            color: white;
+            background-color: #47adf1;
+            border-radius: 10px;
+        }
+
+        .sticker.editorial {
+            background-color: #47adf1;
+        }
+
+        .sticker.goals {
+            background-color: #9c72e4;
+        }
+
+        .sticker.recruiting {
+            background-color: #64c0a9;
+        }
+
+        .sticker.mobile {
+            background-color: #f29e33;
+        }
+
+        .sticker.website {
+            background-color: #d863a1;
+        }
+
+        .sticker.sales {
+            background-color: #b0c926;
+        }
+
+
+        /* green and red symbols */
+
+        .list-category .task {
+            width: 18px;
+            height: 18px;
+            font-size: 10px;
+            font-weight: 700;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 10px;
+            padding: 4px;
+            border-radius: 50%;
+            border: solid 1px; 
+            margin: 4px;
+
+        }
+
+        .task.done {
+            color: #64c0a9;
+        }
+
+        .task.pending {
+            color: #eb5851;
+        }
