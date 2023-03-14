@@ -1,7 +1,11 @@
+
+/* Impostazioni generali */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -11,3 +15,30 @@ body {
 .common-bg {
     background-color: #ffffff;
 }
+
+/* Header */
+
+header {
+    padding: 10px 15px;
+    margin-bottom: 40px;
+
+}
+
+#logo {
+    vertical-align: middle;   
+}
+
+#Logo-text {
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* Main */
+
+
+    /* Buttons */
+
+
+    /* List of categories */
