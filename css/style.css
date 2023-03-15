@@ -104,6 +104,7 @@ main {
         display: inline-block;
     }
 
+    /* Sostituire .task-item con elementi <li> */
     .task-item {
         margin: 10px 0px;
     }
