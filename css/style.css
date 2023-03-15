@@ -104,7 +104,10 @@ main {
         display: inline-block;
     }
 
-    /* Sostituire .task-item con elementi <li> */
+    .list-category li {
+        list-style-type: none;
+    }
+
     .task-item {
         margin: 10px 0px;
     }
