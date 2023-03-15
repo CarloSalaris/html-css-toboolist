@@ -112,7 +112,7 @@ main {
         margin: 10px 0px;
     }
 
-        /* stickers */
+        /* labels */
 
         .label {
             font-size: 11px;
@@ -149,25 +149,30 @@ main {
 
         /* green and red symbols */
 
-        .list-category .task {
-            width: 16px;
-            height: 16px;
+        .list-category .task::before {
+            /* content: "\2713"; */
+            display: inline-block;
+            width: 10px;
+            height: 10px;
             font-size: 9px;
-            font-weight: 700;
+            /* font-weight: 700; */
             text-align: center;
-            vertical-align: middle;
+            /* vertical-align: middle; */
             line-height: 10px;
-            padding: 3px;
+            padding: 2px;
             border-radius: 50%;
             border: solid 1px; 
             margin-right: 6px;
 
         }
 
-        .task.done {
+
+        .task.done::before {
+            content: "\2713";
             color: #64c0a9;
         }
 
-        .task.pending {
+        .task.pending::before {
+            content: "\2715";
             color: #eb5851;
         }
